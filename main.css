@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(27, 33, 41);
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+	color: rgb(24, 4, 71);
+    position:absolute;
+    text-align: left;
+}
+
+.top-Pic{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2020/01/anh-meo-ngu-de-thuong-lam-anh-bia-fb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    font-size: 20px;
+    color: white
+}
+
