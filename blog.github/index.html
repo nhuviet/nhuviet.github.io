@@ -1,37 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>SeaLand Resort</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        
     </head>
     <body>
-        <header>
-            <div id="logo">
-                <img src="../blog.github/image/logo.png">
+        <header class="header">
+            <div class="logo">
+                <a href="index.html"><img src="./image/logo.png"></a>
             </div>
-            <nav class="main">
+            <nav class="main_menu">
+                <a href="index.html">Trang chủ</a>
+                <a href="service.html">Dịch vụ</a>
+                <a href="sale.html">Ưu đãi</a>
+                <a href="gallery.html">Thư viện</a>
+                <a href="contact.html">Liên hệ</a>
+                <!--
                 <ul>
                     <li><a href="index.html">Trang chủ</a></li>
-                    <li><a href="#">Dịch vụ</a></li>
-                    <li><a href="#">Ưu đãi</a></li>
-                    <li><a href="#">Thư viện</a></li>
-                    <li><a href="#">Liên hệ</a></li>
-                </ul>
+                    <li><a href="service.html">Dịch vụ</a></li>
+                    <li><a href="sale.html">Ưu đãi</a></li>
+                    <li><a href="gallery.html">Thư viện</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>-->
             </nav>
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Tìm kiếm...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+            <a href="#" class="btn">checkout</a>
             <div class="title">
                 <h1>WELLCOME TO SEALAND</h1>
                 <div id="tht">
-                    <a href="#content"><h6>Tìm hiểu thêm</h6></a>
+                    <a id="title_button" href="#content"><h6>Tìm hiểu thêm</h6></a>
                 </div>
             </div>
         </header>
+
+        <!--
         <section id="content">
             <div id="sec1">
                 <h4>SEALAND RESORT</h4>
                 <h1>TẬN HƯỞNG NÉT QUYẾN RŨ CỦA VÙNG VEN BIỂN VÀ SỰ HẤP DẪN CỦA VIỆT NAM</h1>
                 <div>
-                    <img src="../blog.github/image/resort_pic1.jpg">
+                    <img src="./image/resort_pic1.jpg">
                 </div>
                 <div>
                     <h2>Khái quát</h2>
@@ -43,10 +63,20 @@
                     </ul>
                 </div>
             </div>
-
+-->
         </section>
-        <footer>
+        <footer class="contact">
             <!--Contacs us-->
+            <!--
+            <div>
+                <p><a href="contact.html">Liên hệ với chúng tôi</a></p>
+            </div>
+            <div class="signup-form">
+                <label for="signup" class="signup">Đăng ký với chúng tôi để nhận thông báo mới nhất </label>
+                <input id="signup-box" type="email" name="email" placeholder="Nhập Email...">
+                <label for="signup-box" class="fas fa-signup"></label>
+                <button type="submit" onclick="alert('Đăng kí thành công!')">Đăng ký</button>
+            </div>-->
         </footer>
     </body>
 </html>
